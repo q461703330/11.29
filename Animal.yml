@@ -1,0 +1,18 @@
+
+
+cat: &cat
+  hair: 短发
+  name: 大橘
+  color: 橘色
+  age: 4
+  sex: 母
+
+dog: &dog
+  hair: 长发
+  name: 叮当
+  color: 黑白色
+  age: 3
+  sex: 公
+
+default:
+  <<: *cat
